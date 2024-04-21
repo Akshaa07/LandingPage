@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>foodweb</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="/src/styles.css" rel="stylesheet">
+        
+       
+    </head>
+    <body class="text-gray-600 text-xl font-body" >
+        <div class="md:grid grid-cols-3">
+         <div class="md:col-span-1 md:flex md:justify-end">
+            <nav class="text-right">
+              <div>
+                <h1 class=" font-bold uppercase p-4 border-b-2 border-stone-400">
+                <a href="/" class="hover:text-gray-700">Chef Rasoi<a>
+
+                </h1> 
+              </div>
+              <ul class="text- mt-6 py-1">
+                <li class="text-gray-500 font-bold py-1">
+                    <a href="#" class="px-4 flex  px-4 flex justify-end border-r-4 border-primary">
+                    <span>Home</span>
+                    <svg class="w-5 ml-2"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                      </svg>
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a href="#" class="px-4 flex justify-end border-r-4 justify-end border-r-4">
+                    <span>About</span>
+                    <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width={1.5} stroke="currentColor" class="w-6 h-6">
+                       
+                      </svg>
+                      
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="px-4 flex justify-end py-1 px-4 flex justify-end border-r-4 ">
+                    <span>Contact</span>
+                    <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        
+                      </svg>
+                    </a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+        <main class="px-16 py-16 bg-gray-100 md:col-span-2">
+            <div class="flex justify-center md:justify-end gap-2">
+                <a href="#" class="btn border-primary md:border-2 hover:bg-primary hover:text-white">Login</a>
+                <a href="#" class="btn border-primary md:border-2 hover:bg-primary hover:text-white">Sign up</a>
+            </div>
+
+
+         <header>
+            <h2 class="text-gray-700 font-bold text-6xl ">Recipies</h2>
+         </header>
+         <div>
+            <h4 class="font-bold mt-12 pb-2 border-b-2 border-stone-600">Latest Recipies</h4>
+             <div class="mt-8 grid lg:grid-cols-3 gap-10" >
+                  <!---cards go from here --->
+                <div class="card hover:drop-shadow-2xl ">
+                  <img src="images/aloo.jpg" class="w-full h-32 sm:h-48 object-cover"  alt="">
+                    <div class="m-4">
+                        <span class="font-bold">Aloo Paratha</span>
+                        <span class="block text-gray text-sm">Recipe by chef Tanmay</span>
+                    </div>
+                    <div class="badge">
+                        <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          
+                        <span>25 mins</span>
+                    </div>
+                </div>
+                <div class="card hover:drop-shadow-2xl">
+                    <img src="images/pavbhaji.jpg" class="w-full h-32 sm:h-48 object-cover"  alt="">
+                      <div class="m-4">
+                          <span class="font-bold">Pav Bhaji</span>
+                          <span class="block text-gray text-sm">Recipe by chef Vishal</span>
+                      </div>
+                      <div class="badge">
+                        <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          
+                          <span>40 mins</span>
+                      </div>
+                  </div>
+                  <div class="card hover:drop-shadow-2xl">
+                    <img src="images/egg.jpg" class="w-full h-32 sm:h-48 object-cover"  alt="">
+                      <div class="m-4">
+                          <span class="font-bold">Egg Bhurji</span>
+                          <span class="block text-gray text-sm">Recipe by chef Aksha</span>
+                      </div>
+                      <div class="badge">
+                        <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          
+                          <span>30 mins</span>
+                      </div>
+                  </div>
+             </div>
+             <h4 class="mt-12 pb-2 border-b-2 border-stone-600">Most Popular</h4>
+             <div class="mt-8">
+              <!--Cards go here --->
+            
+             </div>
+
+             <div class="flex justify-center">
+                <div class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner">Load More</div>
+             </div>
+         </div>
+        </main>
+        <!-- <div
+        class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 text-center"
+      //  style="background-image: url('https://img.freepik.com/free-photo/blue-stationery-table_23-2148169490.jpg?size=626&ext=jpg&ga=GA1.2.522731395.1685886615&semt=ais'); height: 400px">
+      </div> -->
+        
+     
+    </body>  
+</html>
